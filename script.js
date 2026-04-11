@@ -80,10 +80,21 @@
 
 //Arrays
 
-let UserData = [10,"hello",true,'javascript',7.65];
-console.log(UserData);
-console.log(UserData[0]);
+// let UserData = [10,"hello",true,'javascript',7.65];
+// console.log(UserData);
+// console.log(UserData[0]);
 
-for(let i = 0;i < UserData.length; i++){
-    console.log(typeof UserData[i]);
-}
+// for(let i = 0;i < UserData.length; i++){
+//     console.log(typeof UserData[i]);
+// }
+
+let UserData1 = [10,"hello",true,'javascript',7.65];
+
+//UserData1.push(20);
+//UserData1.pop();
+//UserData1.shift();
+UserData1.unshift(20);
+console.log(UserData1);
+
+
+
