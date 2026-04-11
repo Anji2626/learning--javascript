@@ -1,0 +1,89 @@
+// console.log("hello world");
+
+
+// var a = 10;
+// var b = 20;
+
+// console.log(a < b);
+
+// console.log(2 ** 3);
+
+// if( a > b){
+//     console.log("a is big");
+// } else{
+//     console.log("b is big");
+// }
+
+// var num=10
+// console.log(typeof num);
+
+// var num1="hi"
+// console.log(typeof num1);
+
+// var num3=10.23
+// console.log(typeof num3);
+
+// var num4=true
+// console.log(typeof num4);
+
+
+// var x = 10
+// var y = "10"
+
+// if(x==y) console.log(-1);   //StrictOperator(===)
+
+// if(x!==y) console.log(1);
+
+//Prime Number.
+
+// var num = 7;
+// var fc = 0
+// for(let i=1;i<=num;i++){
+//     if(num%i==0){
+//         fc++;
+//     }
+// }
+// if(fc==2){
+//     console.log("Prime Number");
+// }
+
+// var c = 0 ;
+// var num = 2;
+
+// while(c < 10){
+//     var fc = 0
+//     for(let i=1;i<=num;i++){
+//         if(num%i==0){
+//             fc++;
+//         }
+//     }
+//     if(fc == 2){
+//         console.log(num);
+//         c++;
+//     }
+//     num++;
+// }
+
+//Identifiers(Varibales)
+
+// var a = 10  //Redeclare and Reassign
+// var a = 20
+// console.log(a)
+
+// const b = 30  //Can't Redeclare and Reassign
+// console.log(b)
+
+// let c = 40   //Only Reassign
+// c = 50
+// console.log(c)
+
+
+//Arrays
+
+let UserData = [10,"hello",true,'javascript',7.65];
+console.log(UserData);
+console.log(UserData[0]);
+
+for(let i = 0;i < UserData.length; i++){
+    console.log(typeof UserData[i]);
+}
