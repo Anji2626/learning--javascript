@@ -134,12 +134,70 @@
 // for of - arrays,
 // for in - objects
 
-for (const key in object) {
-    if (!Object.hasOwn(object, key)) continue;
+// for (const key in object) {
+//     if (!Object.hasOwn(object, key)) continue;
     
-    const element = object[key];
+//     const element = object[key];
 
+// }
+
+// function myFun() {
+//     console.log("ok")
+//     return -1
+// }
+// console.log(myFun())
+// console.log(myFun)
+
+// function myFun(a,b) {
+//     console.log(a+b)
+//     console.log("ok")
+//     return a-b
+// }
+// console.log(myFun())
+// console.log(myFun(10,"ok"))
+// console.log(myFun(10,20))
+
+// function myFun(a,b) {
+//     console.log(a-b)
+//     console.log("ok")
+//     return a*b
+// }
+
+// const myFun =  function(a , b){
+//     return a - b
+// }
+
+// console.log(myFun(10 , 5));
+
+function calculator(num1 , num2 ,operator){
+    let result
+    switch(operator){
+        case'+':
+            result = num1 + num2
+            console.log("The Addition of "+num1+" & "+num2+" is "+result)
+            break
+        case'-':
+            result = num1 - num2
+            console.log("The Subtraction of "+num1+" & "+num2+" is "+result)
+            break
+        case'*':
+            result = num1 * num2   
+            console.log("The Multiplication of "+num1+" & "+num2+" is "+result)
+            break 
+        case'/':
+            result = num1 / num2
+            console.log("The Divison of "+num1+" & "+num2+" is "+result)
+            break
+        case'%':
+            result = num1 % num2 
+            console.log("The Modulus of "+num1+" & "+num2+" is "+result)
+            break
+        default:
+            console.log("Enter Invalid Input")
+    }
 }
+calculator(10,5,'-')
+
 
 
 
