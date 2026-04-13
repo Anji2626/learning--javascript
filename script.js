@@ -88,13 +88,70 @@
 //     console.log(typeof UserData[i]);
 // }
 
-let UserData1 = [10,"hello",true,'javascript',7.65];
+// let UserData1 = [10,"hello",true,'javascript',7.65];
 
 //UserData1.push(20);
 //UserData1.pop();
 //UserData1.shift();
-UserData1.unshift(20);
-console.log(UserData1);
+// UserData1.unshift(20);
+// console.log(UserData1);
+
+// const a = [10,20]
+
+// a[0] = 30
+
+// console.log(a);
+
+// const obj = {
+//     id : 1,
+//     name : "js",
+//     myData : [10,"ok",2.30]
+// }
+
+// console.log(obj.myData);
+
+// boj.loc = "Ap"
+
+// console.log(obj);
+
+// const users = [
+//     {
+//         id : 1,
+//         name : "user1",
+//         loc : "Ap"
+//     },
+
+//     {
+//         id : 2,
+//         name : "user2",
+//         loc : "HYD"
+//     }
+// ]
+// console.log(users);
+// console.log(users[0]);
+// console.log(users[1].loc);
+
+// for of - arrays,
+// for in - objects
+
+for (const key in object) {
+    if (!Object.hasOwn(object, key)) continue;
+    
+    const element = object[key];
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
