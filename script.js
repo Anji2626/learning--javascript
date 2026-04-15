@@ -6,7 +6,7 @@
 
 // console.log(a < b);
 
-// console.log(2 ** 3);
+//console.log(2 ** 3);
 
 // if( a > b){
 //     console.log("a is big");
@@ -15,7 +15,7 @@
 // }
 
 // var num=10
-// console.log(typeof num);
+//  console.log(typeof num);
 
 // var num1="hi"
 // console.log(typeof num1);
@@ -30,9 +30,9 @@
 // var x = 10
 // var y = "10"
 
-// if(x==y) console.log(-1);   //StrictOperator(===)
+// if(x===y) console.log(-1);   //StrictOperator(===)
 
-// if(x!==y) console.log(1);
+//if(x!==y) console.log(1);
 
 //Prime Number.
 
@@ -169,34 +169,116 @@
 
 // console.log(myFun(10 , 5));
 
-function calculator(num1 , num2 ,operator){
-    let result
-    switch(operator){
-        case'+':
-            result = num1 + num2
-            console.log("The Addition of "+num1+" & "+num2+" is "+result)
-            break
-        case'-':
-            result = num1 - num2
-            console.log("The Subtraction of "+num1+" & "+num2+" is "+result)
-            break
-        case'*':
-            result = num1 * num2   
-            console.log("The Multiplication of "+num1+" & "+num2+" is "+result)
-            break 
-        case'/':
-            result = num1 / num2
-            console.log("The Divison of "+num1+" & "+num2+" is "+result)
-            break
-        case'%':
-            result = num1 % num2 
-            console.log("The Modulus of "+num1+" & "+num2+" is "+result)
-            break
-        default:
-            console.log("Enter Invalid Input")
-    }
-}
-calculator(10,5,'-')
+// function calculator(num1 , num2 ,operator){
+//     let result
+//     switch(operator){
+//         case'+':
+//             result = num1 + num2
+//             console.log("The Addition of "+num1+" & "+num2+" is "+result)
+//             break
+//         case'-':
+//             result = num1 - num2
+//             console.log("The Subtraction of "+num1+" & "+num2+" is "+result)
+//             break
+//         case'*':
+//             result = num1 * num2   
+//             console.log("The Multiplication of "+num1+" & "+num2+" is "+result)
+//             break 
+//         case'/':
+//             result = num1 / num2
+//             console.log("The Divison of "+num1+" & "+num2+" is "+result)
+//             break
+//         case'%':
+//             result = num1 % num2 
+//             console.log("The Modulus of "+num1+" & "+num2+" is "+result)
+//             break
+//         default:
+//             console.log("Enter Invalid Input")
+//     }
+// }
+// calculator(10,5,'+')
+
+// let name = "anji"
+// let age = 20;
+
+// console.log("My name is "+name+" My ag is "+age)
+// console.log(`My name is ${name} My age is ${age}`);
+
+// DOM(document object model)
+
+// let para = document.getElementsByClassName("para");
+
+// let Box = document.getElementsByClassName("Box");
+
+// console.log(Box);
+
+// Box[2].innerHTML = 'bye'
+// para[0].innerHTML = "hello"
+
+
+//Events
+
+// const myFun = () => {
+//     console.log("hello");
+    
+// }
+
+// const myFun = () => {
+//     let display = document.getElementsByClassName("para"); 
+//         display[0].innerHTML = "bye"
+// }
+
+// const myFun = () => {
+//     let display = document.getElementById("buchi"); 
+//     display.innerHTML = display.innerHTML === "Hello" ? "Bye" : "Hello"
+// }
+
+// let b = true;
+// const myFun = () => {
+//     let display = document.getElementById("buchi"); 
+//     if(b)
+//        display.innerHTML = "bye"
+//     else
+//         display.innerHTML = "Hello"
+//     b = !b;
+// }
+
+// const myFun = () => {
+//     let display = document.getElementById("buchi"); 
+//     display.innerHTML = display.innerHTML === "Hello" ? "Bye" : "Hello"
+//     display.style.color = "red";
+// }
+
+// const myFun = () => {
+//     let display = document.getElementById("buchi"); 
+//     if(display.innerHTML === "JavaScript"){
+//         display.innerHTML = "bye"
+//         display.style.color = "red"
+//     }
+//     else{
+//         display.innerHTML = "JavaScript"
+//         display.style.color = "blue"
+//     }
+// }
+
+// const myFun = () => {
+//     let display = document.getElementById("buchi"); 
+//    if(display.src === "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrfkCEjWkINAy1xTHx2kOQqJeParscyDTydA&s"){
+//         display.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjVw4_OCGfr2dcKp4sJiFjg2VFNNRGY_Gxjg&s"
+//    }
+//    else
+//     display.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrfkCEjWkINAy1xTHx2kOQqJeParscyDTydA&s"
+
+// }
+
+
+
+
+
+
+
+
+
 
 
 
