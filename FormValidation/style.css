@@ -1,0 +1,13 @@
+h1{
+    color: black;
+}
+
+.orgin{
+    margin: 650px;
+    border: 1px solid black;
+    padding-right: 10px;
+    height: 230px;
+    width: 200px;
+    text-align: center;
+    font-size: medium;
+}
